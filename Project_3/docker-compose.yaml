@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  inference-server:
+    build: .
+    ports:
+      - "8000:8000"
